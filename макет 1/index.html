@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="java.js"></script>
+    <link rel="stylesheet" href="css.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+    <script src="java.js" defer></script>
+  </head>
+  <body>
+    <div class="background">
+      <div class="container">
+        <div>
+          <div class="nav">
+            <a href="#"><img src="Icons/iconLogoWhite.svg" alt="" /></a>
+            <ul class="navbar">
+              <li><a href="">Все туры</a></li>
+              <li><a href="">Отзывы</a></li>
+              <li><a href="">Контакты</a></li>
+            </ul>
+            <div class="burger"><span></span><span></span><span></span></div>
+          </div>
+
+          <div class="main">
+            <h1>Открой для себя Новую Ирландию</h1>
+            <h2>Авторские туры по экзотическим уголкам от Ивана Иванова</h2>
+            <div class="link">
+              <button id="show-form-btn" class="button">Оставить заявку</button>
+
+              <div id="modal" class="modal">
+                <div class="modal-content">
+                  <span class="close">&times;</span>
+                  <form id="myForm">
+                    <div class="container-info">
+                      <input
+                        type="text"
+                        class="centered-input"
+                        placeholder="Введите имя"
+                      />
+                      <input
+                        type="text"
+                        class="centered-input"
+                        placeholder="Введите фамилию"
+                      />
+                      <input
+                        type="email"
+                        class="centered-input"
+                        placeholder="Введите email"
+                      />
+                      <button
+                        type="submit"
+                        class="custom-button"
+                        style="font-size: 17px"
+                      >
+                        Отправить
+                      </button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+
+              <img src="Icons/iconPlay.svg" alt="" />
+              <p>Просмотерть видео-отчет 2018-2019</p>
+            </div>
+          </div>
+          <div class="footer">
+            <div class="inf">
+              <p>Подписываетесь в соцсетях</p>
+              <a href=""><img src="Icons/iconYouTube.svg" alt="" /></a>
+              <a href=""><img src="Icons/iconTwitter.svg" alt="" /></a>
+              <a href=""><img src="Icons/iconFB.svg" alt="" /></a>
+              <a href=""><img src="Icons/iconVK.svg" alt="" /></a>
+            </div>
+            <div class="pict">
+              <div class="pictOne">
+                <img src="Images/imgIsland.jpg" alt="" class="main" />
+              </div>
+              <div class="pictTwo">
+                <img src="Images/imgDolom.jpg" alt="" />
+              </div>
+              <div class="pictThree">
+                <img src="Images/imgNor.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="page2">
+          <div class="content">
+            <div class="card">
+              <img src="Images/imgHawaii.jpg" alt="" class="ImgPage2" />
+              <p class="date">10-24</p>
+              <p class="month">апреля</p>
+              <p class="about">Большое ущелье на острове Гавайи</p>
+            </div>
+            <div class="block">
+              <h3 class="title">Посмотрите все направления туров</h3>
+              <h4 class="subtitle">
+                Берега океанов и дикие пляжи с редкими породами деревьев.
+                Местная архитектура и первозданный вид дикой природы
+              </h4>
+              <button class="SeeAll">Смотреть все</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js.js"></script>
+  </body>
+</html>
